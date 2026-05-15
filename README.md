@@ -54,8 +54,6 @@ ai-chat-app/
 │ ├── src/
 │ │ └── components/
 │ │ └── Chat.jsx
-
-
 ---
 
 ## 🚀 איך מריצים
