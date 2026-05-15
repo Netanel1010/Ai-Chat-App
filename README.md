@@ -42,19 +42,21 @@
 ---
 
 ## 📁 מבנה פרויקט
+
+```txt
 ai-chat-app/
 │
 ├── BackEnd/
-│ ├── routes/
-│ │ └── chat.js
-│ ├── server.js
-│ └── .env
+│   ├── routes/
+│   │   └── chat.js
+│   ├── server.js
+│   └── .env
 │
 ├── FrontEnd/
-│ ├── src/
-│ │ └── components/
-│ │ └── Chat.jsx
----
+│   ├── src/
+│   │   └── components/
+│   │       └── Chat.jsx
+```
 
 ## 🚀 איך מריצים
 
