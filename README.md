@@ -48,7 +48,8 @@ ai-chat-app/
 │
 ├── BackEnd/
 │   ├── routes/
-│   │   └── chat.js
+│   │   │── chat.js
+│   │   └── models.js
 │   ├── server.js
 │   └── .env
 │
