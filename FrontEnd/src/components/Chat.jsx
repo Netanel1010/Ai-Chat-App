@@ -1,4 +1,6 @@
 import { useState, useRef, useEffect } from 'react';
+import ReactMarkdown from 'react-markdown';
+import remarkGfm from 'remark-gfm';
 
 const Chat = () => {
   const [message, setMessage] = useState('');
@@ -61,7 +63,9 @@ const Chat = () => {
               key={index}
               className={`message ${msg.user === 'You' ? 'user' : 'ai'}`}
             >
-              {msg.text}
+              <ReactMarkdown remarkPlugins={[remarkGfm]}>
+                {msg.text}
+              </ReactMarkdown>
             </div>
           ))}
 
