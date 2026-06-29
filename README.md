@@ -34,7 +34,7 @@
 - Express
 
 **AI**
-- Gemini / OpenAI API
+- Gemini / OpenAI / DeepSeek V3
 
 **Database**
 - MongoDB (אופציונלי)
